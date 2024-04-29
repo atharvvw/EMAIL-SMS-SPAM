@@ -21,7 +21,7 @@ def text_transform(text):
     y.clear()
     
     for i in text:
-        if i not in stopwords.words('english') and i not in string.punctuation:
+        if i not in stopwords.words('hindi') and i not in string.punctuation:
             y.append(i)  
             
     text = y[:]
